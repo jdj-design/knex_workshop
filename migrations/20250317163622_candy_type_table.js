@@ -6,7 +6,7 @@ exports.up = function(knex) {
   return knex.schema.createTable('candy_types', table =>{
     table.increments();
     table.string('type', 250);
-  })
+  });
 };
 
 /**
