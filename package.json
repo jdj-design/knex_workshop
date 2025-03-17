@@ -1,0 +1,27 @@
+{
+  "name": "knex_workshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdj-design/knex_workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdj-design/knex_workshop/issues"
+  },
+  "homepage": "https://github.com/jdj-design/knex_workshop#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "knex": "^3.1.0",
+    "nodemon": "^3.1.9",
+    "pg": "^8.14.1"
+  }
+}
