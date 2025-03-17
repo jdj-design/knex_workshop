@@ -11,6 +11,5 @@ exports.seed = async function(knex) {
     {id: 3, name: 'Haribo', location: 'Germany'},
     {id: 4, name: 'Morinaga & Co.', location: 'Japan'},
     {id: 5, name: 'Orion Corp', location: 'Korea'}
-
   ]);
 };

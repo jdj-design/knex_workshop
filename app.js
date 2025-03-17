@@ -13,7 +13,7 @@ app.listen(port, ()=>{
 
 app.get('/company', async (request, response) => {
     try {
-        const companies = await knex.select('name', 'location').from('candy_companies');
+        const companies = await knex.select('name','location').from('candy_companies');
         response.send(companies);
     } catch (error) {
         console.error(error); 

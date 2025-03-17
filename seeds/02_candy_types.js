@@ -7,7 +7,8 @@ exports.seed = async function(knex) {
   await knex('candy_types').del()
   await knex('candy_types').insert([
     {id: 1, type: 'chocolate'},
-    {id:2, type: 'soft candy'}
+    {id:2, type: 'soft candy'},
+    {id:3, type: 'confections'}
  
   ]);
 };
